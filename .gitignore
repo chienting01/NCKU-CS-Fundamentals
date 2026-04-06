@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# C compiled files
+*.out
+*.exe
+*.o
+hello
+a.out
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.env
