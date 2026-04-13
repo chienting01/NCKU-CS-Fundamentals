@@ -55,30 +55,26 @@ Confirmed important status:
 - C hello lesson placed under `02_c-language/basics/hello/`
 - project guidance structure decided:
   - `AGENTS.md`
-  - `docs/progress.md`
-  - `docs/learning-roadmap.md`
   - `docs/weekly-log/`
-
----
-
-## In Progress
 - formalizing project guidance for the VS Code agent
 - setting up long-term planning and progress documents
 - preparing Week 1 learning tasks
-- expanding `02_c-language` from hello lesson into a full beginner module
+- C variables lesson files created:
+  - `02_c-language/basics/variables/main.c`
+  - `02_c-language/basics/variables/README.md`
+  - `02_c-language/notes/02-variables-and-data-types.md`
 
----
+## In Progress
+- first computer organization note:
+  - `01_computer-organization/notes/01-binary-and-data-representation.md`
 
 ## Immediate Next Tasks
-1. create `docs/learning-roadmap.md`
-2. create `docs/weekly-log/`
-3. create the next C beginner lesson:
-   - `02_c-language/basics/variables/main.c`
-   - `02_c-language/basics/variables/README.md`
-   - `02_c-language/notes/02-variables-and-data-types.md`
-4. create the first computer organization note:
+1. complete the first computer organization note:
    - `01_computer-organization/notes/01-binary-and-data-representation.md`
-5. add the first weekly log:
+2. create Day 3 notes:
+   - `03_data-structures/notes/01-what-is-a-data-structure.md`
+   - `04_algorithms/notes/01-time-complexity.md`
+3. keep weekly log status synchronized:
    - `docs/weekly-log/week-01.md`
 
 ---
