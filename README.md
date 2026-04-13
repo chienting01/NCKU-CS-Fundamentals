@@ -2,6 +2,8 @@
 
 A structured long-term learning repository for computer science, analytics, and technical workflow fundamentals.
 
+This repository is not just a file dump. It is intended to preserve concept notes, runnable examples, exercises, mini-project artifacts, and clean Git history over time.
+
 ## Learning Areas
 
 - Computer Organization
@@ -30,7 +32,8 @@ A structured long-term learning repository for computer science, analytics, and 
 
 ## Purpose
 
-This repository is designed to preserve:
+This repository is designed to organize long-term learning materials in a clean and reusable way, including:
+
 - concept notes
 - runnable examples
 - exercises
@@ -39,9 +42,21 @@ This repository is designed to preserve:
 
 ## Current Focus
 
-See `PROGRESS.md` for current priorities and module progress.
+Current priorities are tracked in `PROGRESS.md`.
 
-## Guidance
+At the moment, the main focus areas are:
 
+- C language basics
+- Git version control workflow
+- Computer organization fundamentals
+
+## Documentation
+
+- Project progress and current priorities: `PROGRESS.md`
 - Repository rules and agent instructions: `AGENTS.md`
-- Progress tracking and next steps: `PROGRESS.md`
+
+## Notes
+
+- `99_git-version-control/` is used for Git and GitHub-related workflow learning.
+- `10_github/` should not be created as a separate top-level folder.
+- Compiled binaries should not remain in the repository.
