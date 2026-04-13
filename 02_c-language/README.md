@@ -9,7 +9,7 @@ This section contains:
 
 ## Current Progress
 - [V] Hello World
-- [ ] Variables
+- [V] Variables
 - [ ] Input / Output
 - [ ] If / Else
 - [ ] Loops
