@@ -42,6 +42,7 @@ Current top priorities:
   - `02_c-language/basics/hello/hello.c`
 - `99_git-version-control` should be kept.
 - Do not create `10_github`.
+- GitHub-related workflow should stay inside `99_git-version-control`.
 - Compiled binaries should not remain in the repository.
 
 ## Repository Rules
@@ -62,6 +63,17 @@ For a new beginner lesson, prefer:
 - `02_c-language/basics/<topic>/main.c`
 - `02_c-language/basics/<topic>/README.md`
 - `02_c-language/notes/<nn>-<topic>.md`
+
+## Git Module Rules
+Inside `99_git-version-control/`, keep Git and GitHub workflow learning together.
+This module may include:
+- Git basics
+- repository workflow
+- branch and merge basics
+- remote workflow
+- GitHub usage related to version control practice
+
+Do not create a separate top-level `10_github/` folder unless explicitly requested.
 
 ## Teaching Rules
 Assume the learner is a beginner in C.
