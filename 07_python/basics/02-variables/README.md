@@ -15,7 +15,7 @@
 
 ## 檔案
 
-- `main.py`
+- `variables.py`
 
 ---
 
@@ -24,7 +24,7 @@
 在 `02-variables` 資料夾開終端機後執行：
 
 ```bash
-python main.py
+python variables.py
 ```
 
 ---
