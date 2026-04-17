@@ -13,14 +13,14 @@ total_price = used_discount_price
 fee = 60
 
 
- if check_member == 1:
-    used_discount_price *= 0.9
-    if used_discount == 1:
-        used_discount_price -= 50
-        if used_discount_price < 0:
-            used_discount_price = 0
-        elif used_discount_price >= 1000:
-            fee = 0
+#  if check_member == 1:
+#     used_discount_price *= 0.9
+#     if used_discount == 1:
+#         used_discount_price -= 50
+#         if used_discount_price < 0:
+#             used_discount_price = 0
+#         elif used_discount_price >= 1000:
+#             fee = 0
 # 錯誤寫法: if check_member == 1:
 # 你這題輸入的是 Y/N，就應該直接判斷字串，而不是先硬轉 bool 再拿去比 1
 # 免運判斷被包在使用折扣碼的分支內，導致未使用折扣碼時即使金額達標也不會免運。
