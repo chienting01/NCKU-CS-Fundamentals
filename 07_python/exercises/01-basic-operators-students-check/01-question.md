@@ -39,27 +39,3 @@
 # 總分: 240
 # 平均: 80.0
 # 通過: True
-
-
-name = input("輸入名字: ")
-
-score1 = input("輸入小考1: ")
-score2 = input("輸入小考2: ")
-score3 = input("輸入小考3: ")
-
-attendance = input("輸入出席率")
-
-total_score = 0.0
-
-total_score += float(score1)
-total_score += float(score2)
-total_score += float(score3)  
-
-average = total_score / 3
-
-
-print("姓名: ", name)
-print("總分: ", total_score)
-print("平均分數: ", float(average))
-print("是否通過: ", float(attendance) >= 80 and average >= 60)
-
