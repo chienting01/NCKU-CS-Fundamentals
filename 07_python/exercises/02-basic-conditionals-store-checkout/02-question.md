@@ -1,41 +1,4 @@
-# Exercise 02-1: Scholarship Eligibility
-
-## 題目目標
-整合練習算術、比較、邏輯、指派運算子，以及 `if / elif / else`。
-
-## 題目情境
-建立一個獎學金資格判斷程式，輸入資料如下：
-
-1. 姓名
-2. 三次小考分數（可含小數）
-3. 出席率（0-100）
-4. 是否有違規紀錄（yes/no）
-
-## 實作要求
-1. 建立 `total_score`，初始值為 `0`。
-2. 使用 `+=` 將三次小考分數累加到 `total_score`。
-3. 計算 `average_score = total_score / 3`。
-4. 同時滿足下列條件才算 Eligible：
-   - `average_score >= 85`
-   - `attendance >= 90`
-   - 無違規紀錄
-5. 輸出：
-   - 姓名
-   - 總分
-   - 平均分數（四捨五入到小數點後 1 位）
-   - 資格結果（Eligible / Not eligible）
-
-## 必須使用
-- 算術運算子：`+`, `/`
-- 比較運算子：`>=`
-- 邏輯運算子：`and`
-- 指派運算子：`+=`
-
-## 加分挑戰
-若 `average_score >= 95` 且 `attendance == 100`，額外顯示 `Top Candidate`。
-
-
-# Exercise 02-2: Store Checkout
+# Exercise 02: Store Checkout
 
 ## 題目目標
 練習使用條件判斷與運算子完成結帳流程。
